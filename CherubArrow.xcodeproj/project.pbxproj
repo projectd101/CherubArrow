@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F59E86753060997D005B4D4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F59E865F3060997A005B4D4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F59E86663060997A005B4D4F;
+			remoteInfo = CherubArrow;
+		};
+		F59E867F3060997D005B4D4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F59E865F3060997A005B4D4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F59E86663060997A005B4D4F;
+			remoteInfo = CherubArrow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F59E86673060997A005B4D4F /* CherubArrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CherubArrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59E86743060997D005B4D4F /* CherubArrowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CherubArrowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59E867E3060997D005B4D4F /* CherubArrowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CherubArrowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F59E86693060997A005B4D4F /* CherubArrow */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CherubArrow;
+			sourceTree = "<group>";
+		};
+		F59E86773060997D005B4D4F /* CherubArrowTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CherubArrowTests;
+			sourceTree = "<group>";
+		};
+		F59E86813060997D005B4D4F /* CherubArrowUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CherubArrowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F59E86643060997A005B4D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		F59E86713060997D005B4D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		F59E867B3060997D005B4D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F59E865E3060997A005B4D4F = {
+			isa = PBXGroup;
+			children = (
+				F59E86693060997A005B4D4F /* CherubArrow */,
+				F59E86773060997D005B4D4F /* CherubArrowTests */,
+				F59E86813060997D005B4D4F /* CherubArrowUITests */,
+				F59E86683060997A005B4D4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F59E86683060997A005B4D4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F59E86673060997A005B4D4F /* CherubArrow.app */,
+				F59E86743060997D005B4D4F /* CherubArrowTests.xctest */,
+				F59E867E3060997D005B4D4F /* CherubArrowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F59E86663060997A005B4D4F /* CherubArrow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59E86863060997D005B4D4F /* Build configuration list for PBXNativeTarget "CherubArrow" */;
+			buildPhases = (
+				F59E86633060997A005B4D4F /* Sources */,
+				F59E86643060997A005B4D4F /* Frameworks */,
+				F59E86653060997A005B4D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				F59E86693060997A005B4D4F /* CherubArrow */,
+			);
+			name = CherubArrow;
+			productName = CherubArrow;
+			productReference = F59E86673060997A005B4D4F /* CherubArrow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F59E86733060997D005B4D4F /* CherubArrowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59E86893060997D005B4D4F /* Build configuration list for PBXNativeTarget "CherubArrowTests" */;
+			buildPhases = (
+				F59E86703060997D005B4D4F /* Sources */,
+				F59E86713060997D005B4D4F /* Frameworks */,
+				F59E86723060997D005B4D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59E86763060997D005B4D4F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F59E86773060997D005B4D4F /* CherubArrowTests */,
+			);
+			name = CherubArrowTests;
+			productName = CherubArrowTests;
+			productReference = F59E86743060997D005B4D4F /* CherubArrowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F59E867D3060997D005B4D4F /* CherubArrowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59E868C3060997D005B4D4F /* Build configuration list for PBXNativeTarget "CherubArrowUITests" */;
+			buildPhases = (
+				F59E867A3060997D005B4D4F /* Sources */,
+				F59E867B3060997D005B4D4F /* Frameworks */,
+				F59E867C3060997D005B4D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59E86803060997D005B4D4F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F59E86813060997D005B4D4F /* CherubArrowUITests */,
+			);
+			name = CherubArrowUITests;
+			productName = CherubArrowUITests;
+			productReference = F59E867E3060997D005B4D4F /* CherubArrowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F59E865F3060997A005B4D4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					F59E86663060997A005B4D4F = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					F59E86733060997D005B4D4F = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = F59E86663060997A005B4D4F;
+					};
+					F59E867D3060997D005B4D4F = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = F59E86663060997A005B4D4F;
+					};
+				};
+			};
+			buildConfigurationList = F59E86623060997A005B4D4F /* Build configuration list for PBXProject "CherubArrow" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F59E865E3060997A005B4D4F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F59E86683060997A005B4D4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F59E86663060997A005B4D4F /* CherubArrow */,
+				F59E86733060997D005B4D4F /* CherubArrowTests */,
+				F59E867D3060997D005B4D4F /* CherubArrowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F59E86653060997A005B4D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		F59E86723060997D005B4D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		F59E867C3060997D005B4D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F59E86633060997A005B4D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		F59E86703060997D005B4D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		F59E867A3060997D005B4D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F59E86763060997D005B4D4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F59E86663060997A005B4D4F /* CherubArrow */;
+			targetProxy = F59E86753060997D005B4D4F /* PBXContainerItemProxy */;
+		};
+		F59E86803060997D005B4D4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F59E86663060997A005B4D4F /* CherubArrow */;
+			targetProxy = F59E867F3060997D005B4D4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F59E86843060997D005B4D4F /* Debug configuration for PBXProject "CherubArrow" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 76X2R3P557;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F59E86853060997D005B4D4F /* Release configuration for PBXProject "CherubArrow" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 76X2R3P557;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F59E86873060997D005B4D4F /* Debug configuration for PBXNativeTarget "CherubArrow" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76X2R3P557;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akshay.CherubArrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F59E86883060997D005B4D4F /* Release configuration for PBXNativeTarget "CherubArrow" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76X2R3P557;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akshay.CherubArrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F59E868A3060997D005B4D4F /* Debug configuration for PBXNativeTarget "CherubArrowTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76X2R3P557;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akshay.CherubArrowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CherubArrow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CherubArrow";
+			};
+			name = Debug;
+		};
+		F59E868B3060997D005B4D4F /* Release configuration for PBXNativeTarget "CherubArrowTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76X2R3P557;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akshay.CherubArrowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CherubArrow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CherubArrow";
+			};
+			name = Release;
+		};
+		F59E868D3060997D005B4D4F /* Debug configuration for PBXNativeTarget "CherubArrowUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76X2R3P557;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akshay.CherubArrowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CherubArrow;
+			};
+			name = Debug;
+		};
+		F59E868E3060997D005B4D4F /* Release configuration for PBXNativeTarget "CherubArrowUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76X2R3P557;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akshay.CherubArrowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CherubArrow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F59E86623060997A005B4D4F /* Build configuration list for PBXProject "CherubArrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59E86843060997D005B4D4F /* Debug configuration for PBXProject "CherubArrow" */,
+				F59E86853060997D005B4D4F /* Release configuration for PBXProject "CherubArrow" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		F59E86863060997D005B4D4F /* Build configuration list for PBXNativeTarget "CherubArrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59E86873060997D005B4D4F /* Debug configuration for PBXNativeTarget "CherubArrow" */,
+				F59E86883060997D005B4D4F /* Release configuration for PBXNativeTarget "CherubArrow" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		F59E86893060997D005B4D4F /* Build configuration list for PBXNativeTarget "CherubArrowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59E868A3060997D005B4D4F /* Debug configuration for PBXNativeTarget "CherubArrowTests" */,
+				F59E868B3060997D005B4D4F /* Release configuration for PBXNativeTarget "CherubArrowTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		F59E868C3060997D005B4D4F /* Build configuration list for PBXNativeTarget "CherubArrowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59E868D3060997D005B4D4F /* Debug configuration for PBXNativeTarget "CherubArrowUITests" */,
+				F59E868E3060997D005B4D4F /* Release configuration for PBXNativeTarget "CherubArrowUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F59E865F3060997A005B4D4F /* Project object */;
+	validationLevel = 1;
+}
