@@ -1,17 +1,14 @@
-//
-//  CherubArrowApp.swift
-//  CherubArrow
-//
-//  Created by Akshay on 21/09/2026.
-//
-
 import SwiftUI
 
 @main
 struct CherubArrowApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        // No visible window — this is a menu-bar-only utility.
+        // The Settings scene keeps SwiftUI happy without showing anything.
+        Settings {
+            EmptyView()
         }
     }
 }
